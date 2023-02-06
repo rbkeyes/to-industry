@@ -11,9 +11,9 @@ router.get('/', async (req, res) => {
     const productData = await Product.findAll({
       include: [
         {model: Category},
-        {model: Tag}]
+        {model: Tag}
+      ]
     });
-    // use literals to get category_name and product_tag data?
     if (!productData) {
       res.status(404).json({message: 'No products found.'})
     }
@@ -27,10 +27,12 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     // find a single product by its `id`
-    const productData = await Product.findbyPk
+    const productData = await Product.findByPk(req.params.id, {
     // be sure to include its associated Category and Tag data
-    (req.params.id, {
-      include: [{ model: Category }, { model: ProductTag }]
+      include: [
+        { model: Category }, 
+        { model: Tag }
+      ]
     });
     if (!productData) {
       res.status(404).json({message: 'No product found with that id.'});
