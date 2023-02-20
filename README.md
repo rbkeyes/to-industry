@@ -61,14 +61,17 @@ You can view the API data by running the routes in Insomnia, or your API develop
 https://user-images.githubusercontent.com/114431225/220197619-755cb0dd-024d-48f7-a7af-f6e0c6c0e3db.mp4
 
 
+
 2. Categories routes:
 
 https://user-images.githubusercontent.com/114431225/220197720-a403d56d-e4d3-49fb-beb8-be667217d69f.mp4
 
 
+
 3. Products routes:
 
 https://user-images.githubusercontent.com/114431225/220197750-d4ef7b7f-4d95-41da-acf2-c529b3e70c94.mp4
+
 
 
 4. Tags routes:
