@@ -23,7 +23,7 @@ This application is not deployed.
 
 - [Usage](#usage)
 
-- [Demo Videos)(#demo)
+- [Demo Videos](#demo)
 
 - [Credits](#credits)
 
